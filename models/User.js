@@ -9,6 +9,7 @@ const userSchema = new Schema({
 
     // can use lower or upper case, just be consistent.
     googleId: String,
+    credits: { type: Number, default: 0}
 
 });
 
