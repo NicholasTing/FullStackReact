@@ -31,7 +31,7 @@ class Header extends Component{
                     <Link to={this.props.auth ? '/surveys' : '/'} 
                     className="left brand-logo"
                     >
-                    Emaily 
+                    Nicholas Ting
                     </Link>
 
                     <ul className="right">
