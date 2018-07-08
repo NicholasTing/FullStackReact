@@ -5,6 +5,8 @@ import {Provider} from 'react-redux';
 import {createStore, applyMiddleware } from 'redux';
 import reduxThunk from 'redux-thunk';
 
+// require('materialize-css/dist/css/materliaze.min.css');
+
 import App from './components/App';
 import reducers from './reducers';
 import axios from 'axios';
