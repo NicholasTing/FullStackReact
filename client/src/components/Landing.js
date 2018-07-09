@@ -7,7 +7,14 @@ const Landing = () => {
                 Nicholas Ting Jing Kun
             </h1>
 
-            This is my personal website.
+            
+            <p>
+                This is my personal project using React.
+                More info about this app will be updated soon.
+            </p>
+
+
+            
         </div>
 
     )
