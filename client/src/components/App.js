@@ -7,6 +7,8 @@ import Header from './Header';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
+import Games from './games/Game';
+import AboutMe from './AboutMe';
 
 class App extends Component {
 
@@ -23,6 +25,8 @@ class App extends Component {
                 <Route exact path="/" component={Landing} />
                 <Route exact path="/surveys" component={Dashboard} />
                 <Route path="/surveys/new" component={SurveyNew} />
+                <Route path="/games" component={Games} />
+                <Route path="/aboutme" component={AboutMe} />
                 
                 </div>
             </BrowserRouter>
